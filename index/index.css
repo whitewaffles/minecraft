@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 130, 5);
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.rmfla {
+    width: 500px;
+    height: 225px;
+    background-color: rgb(0, 147, 0);
+    border-radius: 16px;
+    margin-bottom: 20px; /* 아래 요소들과의 간격 추가 */
+}
+
+.downloadlink {
+    margin-top: -235px;
+    display: inline-block; /* 링크를 인라인 블록으로 설정 */
+}
+
+.downloadlink img {
+    width: 150px; /* 이미지 크기 */
+    height: 150px;
+}
+
+.ekdnsfhem1, .ekdnsfhem3 {
+    font-size: 20px;
+    color: rgb(157, 168, 169);
+}
+
+.ekdnsfhem {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(87, 149, 154);
+}
